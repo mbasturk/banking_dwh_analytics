@@ -4,8 +4,6 @@ Banking Data Warehouse & Analytics Project
 This project is an end-to-end **analytics and data warehousing solution** built on top of a fictional banking dataset.  
 It includes a PostgreSQL Data Warehouse, ETL processes, dimensional modeling, and two fully designed Power BI dashboards.
 
-The project reflects the real workflow of a Data Engineer / BI Developer and serves as a strong portfolio example.
-
 ---
 
 1. Architecture Overview
