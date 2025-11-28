@@ -64,6 +64,8 @@ createdb banking_dw
 psql -U postgres -d banking_dw -f sql/banking_dw_schema.sql
 All dimension and fact tables will be created automatically.
 
+---
+
 5. Power BI Dashboards
 Power BI file: /powerbi/banking_dwh_analytics.pbix
 Customer 360 Dashboard
@@ -96,6 +98,8 @@ Transaction Amount by Type
 
 Transaction Trend Over Time
 
+---
+
 6. Technologies Used
 Technology	Purpose
 PostgreSQL	Data Warehouse storage
@@ -104,6 +108,8 @@ Power BI	Data visualization & analytics
 DAX	KPI & measure calculations
 Kimball Star Schema	Dimensional modeling
 pgAdmin 4	DB management
+
+---
 
 7. How to Run the Project
 -Load the PostgreSQL database
@@ -117,6 +123,8 @@ Update PostgreSQL connection (server: localhost, database: postgres)
 
 Refresh all visuals
 
+---
+
 8. Screenshots (Recommended)
 Add these under /screenshots:
 
@@ -125,6 +133,8 @@ Customers.jpg
 Transactions.jpg
 
 postgre.jpg
+
+---
 
 9. Purpose of the Project
 This project demonstrates:
@@ -145,5 +155,8 @@ Realistic banking analytics scenarios
 
 It is ideal for Data Engineering / BI Developer portfolios.
 
+---
+
 10. Contact & Contributions
 Feel free to open an issue for suggestions, improvements, or questions.
+linkedin.com/in/mehmet-basturk/
